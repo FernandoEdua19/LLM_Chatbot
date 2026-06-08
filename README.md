@@ -1,14 +1,14 @@
-# Asistente de Escritura Automática ✍️
+# Tutor Virtual Inteligente ✍️(◔◡◔)
 
-Este es un proyecto sencillo de un Asistente de Escritura impulsado por Inteligencia Artificial utilizando **Streamlit** para la interfaz gráfica y **Google Gemini API** como modelo de lenguaje subyacente.
+El proyecto consiste en crear un tutor inteligente que pueda ayudar a los estudiantes con sus tareas dando ejemplos parecidos a lo que ellos buscan resolver sin darles la respuesta de su tarea. Esta desarrollado la API de Google Gemini AI con el modelo gratuito de "gemini-3.5-flash" para que los interesados en el proyecto puedan poner en practica la IA
 
 ## 🚀 Funcionalidades
 
-El asistente cuenta con tres funciones principales diseñadas para facilitar el proceso de escritura:
+Las funcionalidades del tutor virtual son las siguientes:
 
-1. **Mejorar redacción y ortografía**: Permite pegar un texto existente para que la IA corrija errores gramaticales y mejore el estilo y fluidez del mismo.
-2. **Sugerir continuación**: Si te quedas sin ideas, puedes escribir el inicio de un texto y el asistente redactará el siguiente párrafo de forma coherente.
-3. **Escribir un texto desde cero**: Solo necesitas ingresar un tema (ej. "Un correo solicitando vacaciones") y seleccionar el tono deseado (Profesional, Casual, Creativo, Persuasivo, etc). El modelo generará el texto completo por ti.
+1. **Explicacion acerca de una tarea**: Esta funcion permite que el usuario ingrese informacion acerca de la tarea donde necesita ayuda y la IA devuelve una tarea similar con una explicacion para que el usuario a traves de ese ejemplo pueda resolver su tarea original.
+2. **Sugerir tecnicas de estudio**: Esta funcionalidad permite que el usuario pueda recibir consejos acerca de cual es la mejor tecnica de estudio basada en su forma de aprendizaje y que pueda mejorar su desempeño escolar con esos consejos.
+3. **Orientacion acerca de un tema**: En esta opcion le permite al usuario recibir una orientacion de un tema enfocado en una materia en especifico. Es decir, puede recibir informacion acerca de los futuros tecnologicos basados enfocado al tema filosofico.
 
 ## 🛠 Requisitos Previos
 
@@ -19,10 +19,7 @@ Para utilizar esta aplicación necesitas:
 
 ## 📦 Instalación
 
-1. Clona el repositorio o navega hasta la carpeta del proyecto en tu terminal:
-   ```bash
-   cd /Users/leonelmendiola/llm/asistente_escritura
-   ```
+1. Clona el repositorio o navega hasta la carpeta del proyecto en tu terminal
 
 2. (Recomendado) Crea un entorno virtual para instalar las dependencias sin afectar tu sistema:
    ```bash
